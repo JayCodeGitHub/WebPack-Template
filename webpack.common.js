@@ -7,11 +7,6 @@ const pages = ["index", "about"];
 
 module.exports = {
     entry: "./src/index.js",
-    mode: "development",
-    output: {
-        filename: "main.[contenthash].js",
-        path: path.resolve(__dirname, "dist"),
-    },
     plugins: [].concat(
         pages.map(
           (page) =>

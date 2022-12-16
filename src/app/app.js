@@ -1,1 +1,3 @@
-console.log("app")
+export function run() {
+    console.log("app")
+}
